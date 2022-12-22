@@ -13,7 +13,7 @@
 }
 
 body{
-    background: linear-gradient(#616161, #9bc5c3);
+    background: linear-gradient(#ADA996,#F2F2F2,#DBDBDB,#EAEAEA);
     margin: 0;
 }
 
@@ -36,10 +36,13 @@ img{
 
 .home_p{
     text-align: center;
-    margin: 10px;
+    margin: 30px;
     margin-bottom: 30px;
-    color: hsl(120, 99%, 71%);
+    color: hsl(120, 87%, 9%);
     font-weight: bold;
+    background: linear-gradient(#ADA996,#F2F2F2,#DBDBDB,#EAEAEA);
+    opacity: 50%;
+    border-radius: 5%;
 }
 #menu{
     
@@ -52,18 +55,25 @@ img{
 }
 a {
     text-decoration: none;
-    
+    font-weight: bold;
 }
 
 a:hover{
-    color: #52ff52;
+    background-color: #52ff52;
+    border-radius: 10px;
+    padding:5px;
 }
+
+a:visited { text-decoration:none; color:#2e3b3a; }
 
 h1{
     font-size: 50px;
     text-align: center;
 }
 
+ol{
+    margin-bottom: 60px;
+}
 h3{
     font-size: 30px;
     text-align: center;
