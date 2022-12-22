@@ -1,0 +1,89 @@
+*{
+    font-family: FreeMono, monospace;
+    font-size: 20px;
+    
+
+}
+
+
+.home_div{
+    margin: 20px;
+    padding: 5px 0;
+    
+}
+
+body{
+    background: linear-gradient(#616161, #9bc5c3);
+    margin: 0;
+}
+
+.home{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    color:#e1d8e1;
+    }
+
+img{
+    width: 800px;
+    height: auto;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.home_p{
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 30px;
+    color: hsl(120, 99%, 71%);
+    font-weight: bold;
+}
+#menu{
+    
+    list-style-type: none;  
+}
+ 
+.menu-list>a{
+    font-size: 50px;
+    color:#2e3b3a;
+}
+a {
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color: #52ff52;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+.kimchi_page{
+    background: linear-gradient(#e52d27,#b31217);
+}
+
+.kimchi{
+    background: linear-gradient(#FFFFFF, #FFEFBA );
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 80%;
+}
+.lemon_page{
+    background: linear-gradient(#FFE000,#799F0C);
+}
+
+.sauer_body{
+    background: linear-gradient(#FFEFBA,#FFFFFF );
+}
